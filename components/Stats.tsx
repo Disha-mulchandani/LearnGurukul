@@ -2,11 +2,11 @@ export default function Stats() {
 
   const stats = [
     {
-      number: "500+",
+      number: "100+",
       label: "Classes Conducted"
     },
     {
-      number: "100+",
+      number: "1000+",
       label: "Students Worldwide"
     },
     {

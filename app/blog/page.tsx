@@ -54,7 +54,7 @@ export default function BlogPage() {
         <div className="text-center">
 
           <h1 className="text-6xl font-extrabold  text-black ">
-            Learnora Blog
+            Learn at Home Blog
           </h1>
 
           <p className="mt-6 text-xl text-gray-800 max-w-3xl mx-auto">

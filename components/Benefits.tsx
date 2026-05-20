@@ -14,7 +14,7 @@ export default function Benefits() {
 
         {/* TITLE */}
         <h2 className="text-5xl md:text-6xl font-extrabold text-center text-blue-700">
-          Why Choose Learnora?
+          Why Choose LearnFromHome academy?
         </h2>
 
         <p className="text-center text-xl text-gray-600 mt-6 max-w-3xl mx-auto">

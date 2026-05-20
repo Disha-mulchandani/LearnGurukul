@@ -11,7 +11,7 @@ export default function StudentEnrollment() {
 
         {/* SMALL DESCRIPTION */}
         <p className="mt-6 text-xl text-gray-800">
-          Fill this form to join Learnora Academy
+          Fill this form to join LearnAtHome Academy
         </p>
 
         {/* FORM BELOW */}
