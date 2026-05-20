@@ -69,7 +69,12 @@ export default function Navbar() {
           >
             Contact
           </Link>
-
+<Link
+  href="/blog"
+  className="hover:text-blue-600 transition duration-300"
+>
+  Blog
+</Link>
         </div>
         
 

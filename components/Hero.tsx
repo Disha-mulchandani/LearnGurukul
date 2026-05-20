@@ -2,9 +2,8 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-[#0B1120] flex items-center justify-center px-6 pt-28 relative overflow-hidden">
 
-      {/* PREMIUM BACKGROUND GLOW */}
+      {/* BACKGROUND GLOW */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl"></div>
-
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-3xl"></div>
 
       {/* GRID EFFECT */}
@@ -15,44 +14,46 @@ export default function Hero() {
         {/* LEFT CONTENT */}
         <div className="text-white">
 
-          {/* BADGE */}
+          {/* TRUST BADGE */}
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm text-gray-200 shadow-lg">
-            ⭐ Trusted by Students Worldwide
+            ⭐ Trusted 1:1 Online Tutoring Platform for Students Worldwide
           </div>
 
-          {/* HEADING */}
+          {/* MAIN HEADING (SEO STRONG) */}
           <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight">
-  1:1 Online Tutoring for
-  <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-    {" "}Coding, Math & School Subjects
-  </span>
-  <br />
-  for Students Worldwide
-</h1>
+            Personalized{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              1:1 Online Tutoring
+            </span>
+            <br />
+            for Coding, Math, Science & English
+          </h1>
 
-          {/* SUBTEXT */}
+          {/* SUBTEXT (SEO KEYWORDS HEAVY BUT NATURAL) */}
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
-            Personalized 1:1 online tutoring in Coding, Math, Science, English, and AP Computer Science. Learn from expert tutors with interactive live classes designed for school students worldwide.
+            LearnAtHome provides expert-led 1:1 online tutoring for students worldwide.
+            We help you master Coding, Python, Math, Science, English, and Creative Writing
+            with personalized live classes designed to improve understanding and confidence.
           </p>
 
-          {/* BUTTONS */}
+          {/* CTA BUTTONS */}
           <div className="mt-12 flex flex-col sm:flex-row gap-5">
 
-            {/* PRIMARY BUTTON */}
+            {/* PRIMARY CTA */}
             <a
               href="https://tally.so/r/q4oe18"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:scale-105 transition duration-300 shadow-2xl">
-                Book Free Demo
+                🎓 Book Free Demo Class
               </button>
             </a>
 
-            {/* SECONDARY BUTTON */}
+            {/* SECONDARY CTA */}
             <a href="/courses">
               <button className="bg-white/5 border border-white/10 backdrop-blur-md px-8 py-4 rounded-2xl text-lg text-white hover:bg-white hover:text-black transition duration-300">
-                Explore Courses
+                📚 Explore Courses
               </button>
             </a>
 
@@ -63,23 +64,17 @@ export default function Hero() {
 
             <div>
               <h3 className="text-3xl font-bold">500+</h3>
-              <p className="text-gray-400 mt-1">
-                Students
-              </p>
+              <p className="text-gray-400 mt-1">Students</p>
             </div>
 
             <div>
               <h3 className="text-3xl font-bold">50+</h3>
-              <p className="text-gray-400 mt-1">
-                Expert Tutors
-              </p>
+              <p className="text-gray-400 mt-1">Expert Tutors</p>
             </div>
 
             <div>
               <h3 className="text-3xl font-bold">4.9★</h3>
-              <p className="text-gray-400 mt-1">
-                Rating
-              </p>
+              <p className="text-gray-400 mt-1">Rating</p>
             </div>
 
           </div>
@@ -97,7 +92,7 @@ export default function Hero() {
 
             <img
               src="https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4"
-              alt="Student learning online"
+              alt="Online 1:1 tutoring session for students learning coding and math"
               className="rounded-[30px] w-full object-cover"
             />
 
@@ -105,11 +100,11 @@ export default function Hero() {
             <div className="absolute -bottom-6 -left-6 bg-white text-black px-6 py-4 rounded-2xl shadow-2xl">
 
               <p className="font-bold text-lg">
-                Live 1-to-1 Classes
+                Live 1:1 Personalized Learning
               </p>
 
               <p className="text-gray-600 text-sm mt-1">
-                Personalized learning experience
+                Coding • Math • Science • English
               </p>
 
             </div>
@@ -119,7 +114,6 @@ export default function Hero() {
         </div>
 
       </div>
-
     </section>
   );
 }

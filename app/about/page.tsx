@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About LearnAtHome | 1:1 Online Tutoring Platform",
+  description:
+    "LearnAtHome is a 1:1 online tutoring platform for Coding, Math, Science, and English. We help students learn with expert tutors through personalized learning.",
+};
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-blue-50 px-6 py-24">
