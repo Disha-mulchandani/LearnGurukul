@@ -22,22 +22,17 @@ export default function Hero() {
 
           {/* HEADING */}
           <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight">
-
-            Learn Smarter 
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              {" "}From 
-            </span>
-
-            <br />
-
-           Home
-          </h1>
+  1:1 Online Tutoring for
+  <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+    {" "}Coding, Math & School Subjects
+  </span>
+  <br />
+  for Students Worldwide
+</h1>
 
           {/* SUBTEXT */}
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
-            Personalized one-to-one tutoring designed to help students
-            master English, Coding, Science, Creative Writing,
-            and AP Computer Science.
+            Personalized 1:1 online tutoring in Coding, Math, Science, English, and AP Computer Science. Learn from expert tutors with interactive live classes designed for school students worldwide.
           </p>
 
           {/* BUTTONS */}

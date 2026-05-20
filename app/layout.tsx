@@ -17,11 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LearnAtHome | Online One-to-One Tutoring",
-
-  description:
-    "Live one-to-one online tutoring for students worldwide.",
-
+   title: "LearnAtHome | 1:1 Online Tutoring in Coding, Math & School Subjects",
+  description: "Join LearnAtHome for personalized 1:1 online tutoring in coding, math, and school subjects. Learn from expert tutors anytime, anywhere.",
   keywords: [
     "Tutor at home",
     "Online classes",

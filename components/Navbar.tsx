@@ -2,8 +2,10 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm">
-
+    <nav
+    aria-label="Main Navigation"
+    className="fixed top-0 w-full bg-white/80 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm"
+  >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
 
         {/* LOGO */}
@@ -28,7 +30,7 @@ export default function Navbar() {
               </h1>
 
               <p className="text-xs text-gray-500 -mt-1 tracking-wide">
-              Live one-to-one online tutoring for students worldwide.
+             1:1 Online Tutoring Platformdwide.
               </p>
 
             </div>
@@ -52,7 +54,7 @@ export default function Navbar() {
 >
   Courses
 </Link>
-            Courses
+           
           <Link href="/become-a-teacher">
     Become a Teacher
 </Link>
