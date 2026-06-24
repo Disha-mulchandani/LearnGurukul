@@ -14,7 +14,7 @@ export default function CreativeWritingBlog() {
         <p className="mt-6 text-lg text-gray-700">
           Creative writing is not just writing — it is the art of expressing imagination,
           emotions, and ideas in a powerful and beautiful way. At
-          <span className="text-blue-600 font-semibold"> LearnGurukul</span>, students learn
+          <span className="text-blue-600 font-semibold"> Bright Edu</span>, students learn
           how to turn simple thoughts into amazing stories.
         </p>
 
@@ -115,7 +115,7 @@ export default function CreativeWritingBlog() {
         </h2>
 
         <p className="mt-3 text-gray-700 leading-relaxed">
-          LearnGurukul provides personalized 1:1 creative writing classes where students
+          Bright Edu provides personalized 1:1 creative writing classes where students
           learn storytelling, vocabulary building, essay writing, and imagination development
           with expert tutors.
         </p>

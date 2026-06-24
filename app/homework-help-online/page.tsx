@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Homework Help for Students | LearnGurukul",
+  title: "Online Homework Help for Students | Bright Edu",
 
   description:
     "Get personalized online homework help in Math, Science, English, Coding, Algebra, SAT preparation, and school subjects for students worldwide.",

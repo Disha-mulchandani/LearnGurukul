@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Best Online English & Creative Writing Classes for Students | LearnGurukul",
+    "Best Online English & Creative Writing Classes for Students | Bright Edu",
 
   description:
-    "Discover personalized 1:1 online English and Creative Writing classes for students worldwide. Improve reading, vocabulary, grammar, storytelling, and communication skills with LearnGurukul.",
+    "Discover personalized 1:1 online English and Creative Writing classes for students worldwide. Improve reading, vocabulary, grammar, storytelling, and communication skills with Bright Edu.",
 
   keywords: [
     "online english tutor",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "english grammar classes",
     "story writing classes",
     "communication skills for students",
-    "LearnGurukul",
+    "Bright Edu",
   ],
 };
 
@@ -68,7 +68,7 @@ export default function BlogPage() {
           </p>
 
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-            At <span className="font-semibold text-blue-700">LearnGurukul</span>,
+            At <span className="font-semibold text-blue-700">Bright Edu</span>,
             students from the USA and worldwide receive personalized online
             tutoring that focuses on creativity, confidence, vocabulary growth,
             grammar improvement, and communication development.
@@ -137,7 +137,7 @@ export default function BlogPage() {
         <section className="mt-16 bg-white p-10 rounded-[35px] shadow-sm border">
 
           <h2 className="text-3xl font-bold text-gray-900">
-            Why Parents Choose LearnGurukul
+            Why Parents Choose Bright Edu
           </h2>
 
           <ul className="mt-8 space-y-4 text-lg text-gray-700">
@@ -220,7 +220,7 @@ export default function BlogPage() {
               </h3>
 
               <p className="mt-3 text-gray-700">
-                Yes, all LearnGurukul classes are personalized according
+                Yes, all Bright Edu classes are personalized according
                 to each student’s level, goals, and learning style.
               </p>
             </div>

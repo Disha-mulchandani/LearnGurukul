@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Algebra Basics Step-by-Step | LearnGurukul",
+  title: "Algebra Basics Step-by-Step | Bright Edu",
 
   description:
     "Learn algebra through beginner-friendly online tutoring, equations, worksheets, homework help, and SAT Math preparation.",

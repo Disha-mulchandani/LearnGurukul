@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Gujarati Classes | LearnGurukul",
+  title: "Online Gujarati Classes | Bright Edu",
   description:
     "Interactive Gujarati language tutoring for speaking, grammar, reading, and writing.",
 };

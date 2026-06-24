@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Online Coding Classes for Students | LearnGurukul",
+  title: "Online Coding Classes for Students | Bright Edu",
 
   description:
     "Learn coding through beginner-friendly online classes in Python, JavaScript, web development, and AP Computer Science.",

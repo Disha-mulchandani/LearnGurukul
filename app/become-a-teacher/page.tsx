@@ -17,7 +17,7 @@ export default function BecomeTeacher() {
 
           <p className="mt-8 text-xl text-gray-600 leading-relaxed">
             Inspire students around the world through interactive online
-            teaching and become part of the LearnGurukul educator community.
+            teaching and become part of the Bright Edu educator community.
           </p>
 
         </div>
@@ -92,7 +92,7 @@ export default function BecomeTeacher() {
 
             <p className="mt-4 text-lg text-gray-600">
               Fill out the form below to apply as an online teacher at
-              LearnGurukul.
+              Bright Edu.
             </p>
 
           </div>

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Creative Writing Classes | LearnGurukul",
+  title: "Online Creative Writing Classes | Bright Edu",
   description:
     "Personalized one-to-one creative writing classes for students worldwide.",
 };

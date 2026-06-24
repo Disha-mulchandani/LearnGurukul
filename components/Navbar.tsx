@@ -24,7 +24,7 @@ export default function Navbar() {
             <div>
 
               <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-blue-700">
-                LearnGurukul
+                Bright Edu
               </h1>
 
               <p className="text-xs text-gray-500 -mt-1 tracking-wide">

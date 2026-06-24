@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Java Programming Classes | LearnGurukul",
+  title: "Online Java Programming Classes | Bright Edu",
 
   description:
     "Learn Java programming online through beginner-friendly coding lessons, object-oriented programming, projects, and AP Computer Science support.",

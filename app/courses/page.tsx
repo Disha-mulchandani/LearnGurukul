@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Online Tutoring Courses | Math, SAT, English, Coding & Homework Help | LearnGurukul",
+    "Online Tutoring Courses | Math, SAT, English, Coding & Homework Help | Bright Edu",
 
   description:
     "Explore expert-led 1:1 online tutoring courses for Math, SAT Preparation, English, Reading, Creative Writing, Coding, Science, and Homework Help for students worldwide.",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "SAT preparation online",
     "online tutoring USA",
     "online classes for kids",
-    "LearnGurukul",
+    "Bright Edu",
   ],
 };
 
@@ -233,7 +233,7 @@ export default function CoursesPage() {
           </h2>
 
           <p className="mt-8 text-lg text-gray-600 leading-relaxed">
-            LearnGurukul provides personalized 1:1 online tutoring for students
+            Bright Edu provides personalized 1:1 online tutoring for students
             worldwide. Our live online classes help students improve academic
             performance, confidence, communication skills, and problem-solving abilities.
           </p>

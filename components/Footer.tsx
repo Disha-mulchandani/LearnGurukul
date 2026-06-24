@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
 
           <h2 className="text-4xl font-extrabold">
-            LearnGurukul Academy
+            Bright Edu Academy
           </h2>
           <p className="mt-4 text-gray-500">
   Serving students in the USA, Canada, UK, UAE, Australia & worldwide.

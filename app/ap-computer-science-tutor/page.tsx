@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "AP Computer Science Tutor | LearnGurukul",
+  title: "AP Computer Science Tutor | Bright Edu",
   description:
     "Personalized AP Computer Science tutoring with Java programming, coding practice, exam preparation, and one-to-one online mentoring.",
 };

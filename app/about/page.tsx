@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "About LearnGurukul | 1:1 Online Tutoring for Math, English, SAT & Coding",
+    "About Bright Edu | 1:1 Online Tutoring for Math, English, SAT & Coding",
 
   description:
-    "LearnGurukul provides personalized 1:1 online tutoring for students worldwide. Expert tutors for Math, English, Reading, Creative Writing, SAT Prep, Science, Coding, and homework help.",
+    "Bright Edu provides personalized 1:1 online tutoring for students worldwide. Expert tutors for Math, English, Reading, Creative Writing, SAT Prep, Science, Coding, and homework help.",
 
   keywords: [
-    "about LearnGurukul",
+    "about Bright Edu",
     "online tutoring platform",
     "1:1 online tutoring",
     "math tutor online",
@@ -46,7 +46,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-8 text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            LearnGurukul is a modern 1:1 online tutoring platform helping students
+            Bright Edu is a modern 1:1 online tutoring platform helping students
             worldwide succeed in Math, English, SAT Preparation, Coding,
             Science, Reading, and Creative Writing through personalized live learning.
           </p>
@@ -72,7 +72,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="mt-8 text-lg text-gray-600 leading-relaxed">
-              LearnGurukul was created with a simple goal:
+              Bright Edu was created with a simple goal:
               make high-quality personalized education accessible
               to students worldwide.
             </p>
@@ -141,7 +141,7 @@ export default function AboutPage() {
           <div className="text-center">
 
             <p className="text-blue-600 font-bold uppercase tracking-widest">
-              Why Parents Choose LearnGurukul
+              Why Parents Choose Bright Edu
             </p>
 
             <h2 className="mt-4 text-5xl font-extrabold text-gray-900">

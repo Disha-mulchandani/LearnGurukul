@@ -31,7 +31,7 @@ export default function Hero() {
 
           {/* SUBTEXT (SEO KEYWORDS HEAVY BUT NATURAL) */}
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
-            LearnGurukul provides expert-led 1:1 online tutoring for students worldwide.
+            Bright Edu provides expert-led 1:1 online tutoring for students worldwide.
             We help you master Coding, Python, Math, Science, English, and Creative Writing
             with personalized live classes designed to improve understanding and confidence.
           </p>

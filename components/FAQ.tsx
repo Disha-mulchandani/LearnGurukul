@@ -16,7 +16,7 @@ export default function FAQ() {
     {
       question: "Are classes available internationally?",
       answer:
-        "Absolutely. Students from different countries can join LearnGurukul from anywhere in the world.",
+        "Absolutely. Students from different countries can join Bright Edu from anywhere in the world.",
       emoji: "🌍",
     },
     {

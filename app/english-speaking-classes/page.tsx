@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online English Speaking Classes | LearnGurukul",
+  title: "Online English Speaking Classes | Bright Edu",
   description:
     "Interactive online English speaking classes for students worldwide with personalized one-to-one tutoring.",
 };

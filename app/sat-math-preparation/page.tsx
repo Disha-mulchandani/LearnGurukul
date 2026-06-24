@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "SAT Math Preparation Online | LearnGurukul",
+  title: "SAT Math Preparation Online | Bright Edu",
   description:
     "Prepare for SAT Math with personalized online tutoring, practice questions, and step-by-step explanations for USA and international students.",
 };

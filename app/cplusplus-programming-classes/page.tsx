@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Online C++ Programming Classes for Kids & Beginners | LearnGurukul",
+    "Online C++ Programming Classes for Kids & Beginners | Bright Edu",
 
   description:
     "Learn C++ programming online with personalized 1:1 tutoring for students worldwide. Build coding logic, problem-solving skills, algorithms, and programming confidence through interactive live classes.",
@@ -24,15 +24,15 @@ export const metadata: Metadata = {
     "C++ homework help",
     "coding logic classes",
     "algorithms and programming",
-    "LearnGurukul C++ classes",
+    "Bright Edu C++ classes",
   ],
 
   openGraph: {
     title:
-      "Online C++ Programming Classes | LearnGurukul",
+      "Online C++ Programming Classes | Bright Edu",
     description:
       "Interactive 1:1 C++ programming classes for beginners and school students worldwide.",
-    siteName: "LearnGurukul",
+    siteName: "Bright Edu",
     type: "website",
   },
 };
@@ -207,7 +207,7 @@ export default function CPPPage() {
         <div className="max-w-6xl mx-auto text-center">
 
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-            Why Choose LearnGurukul?
+            Why Choose Bright Edu?
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">

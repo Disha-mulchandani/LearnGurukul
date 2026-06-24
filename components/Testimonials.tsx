@@ -36,7 +36,7 @@ export default function Testimonials() {
 
           <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
             Real experiences from students and parents learning
-            with LearnGurukul.
+            with Bright Edu.
           </p>
 
         </div>

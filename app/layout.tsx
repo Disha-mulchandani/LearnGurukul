@@ -17,16 +17,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://learngurukul.com"),
-
+  metadataBase: new URL("http://localhost:3000"),
   title: {
     default:
-      "LearnGurukul | 1:1 Online Tutoring for USA & Global Students",
-    template: "%s | LearnGurukul",
+      "Bright Edu | 1:1 Online Tutoring for USA & Global Students",
+    template: "%s | Bright Edu",
   },
 
   description:
-    "LearnGurukul offers expert-led 1:1 online tutoring for students in the USA and worldwide. Personalized classes for Math, SAT, English, Reading, Creative Writing, Science, Coding, and homework help for Grades 1–12.",
+    "Bright Edu offers expert-led 1:1 online tutoring for students in the USA and worldwide. Personalized classes for Math, SAT, English, Reading, Creative Writing, Science, Coding, and homework help for Grades 1–12.",
 
   keywords: [
     "online tutoring",
@@ -43,17 +42,17 @@ export const metadata: Metadata = {
     "reading tutor online",
     "USA online tutoring",
     "global online classes",
-    "LearnGurukul",
+    "Bright Edu",
   ],
 
   openGraph: {
     title:
-      "LearnGurukul | Online Tutoring for Math, English, SAT & Coding",
+      "Bright Edu | Online Tutoring for Math, English, SAT & Coding",
 
     description:
       "Expert 1:1 online tutoring for students worldwide.",
 
-    siteName: "LearnGurukul",
+    siteName: "Bright Edu",
 
     type: "website",
   },
