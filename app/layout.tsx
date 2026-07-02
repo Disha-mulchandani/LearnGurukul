@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
-
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -18,10 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://learngurukul.com"),
+  metadataBase: new URL("https://learngurukul.com/"),
 
   title: {
-    default: "LearnGurukul | 1:1 Online Tutoring for USA, UK, Canada, Australia & Global Students",
+    default:
+      "LearnGurukul | 1:1 Online Tutoring for USA, UK, Canada, Australia & Global Students",
     template: "%s | LearnGurukul",
   },
 
@@ -65,6 +65,7 @@ export const metadata: Metadata = {
     "grade 7 tutoring",
     "grade 8 tutoring",
     "grade 9 tutoring",
+    "grade 10 tutoring",
     "elementary tutoring",
     "primary school tutoring",
 
@@ -88,7 +89,6 @@ export const metadata: Metadata = {
       "1:1 expert online tutoring for students across USA, UK, Canada, Australia & worldwide.",
 
     siteName: "LearnGurukul",
-
     type: "website",
   },
 };
@@ -106,15 +106,13 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-gray-900">
         <Navbar />
 
-        <main className="flex-1">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
 
         <Footer />
 
         {/* Google Analytics */}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-PNGS9C2HXH`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-PNGS9C2HXH"
           strategy="afterInteractive"
         />
 
@@ -123,7 +121,6 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-PNGS9C2HXH');
           `}
         </Script>
