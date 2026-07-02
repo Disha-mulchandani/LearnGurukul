@@ -1,3 +1,21 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+
+import "./globals.css";
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://learngurukul.com"),
 
@@ -13,8 +31,8 @@ export const metadata: Metadata = {
 
   keywords: [
     "online tutoring",
-    "1:1 online tutoring", 
-    "tutor at home", 
+    "1:1 online tutoring",
+    "tutor at home",
     "online tutor",
     "online classes",
     "math tutor online",
@@ -33,12 +51,28 @@ export const metadata: Metadata = {
   openGraph: {
     title:
       "LearnGurukul | Online Tutoring for Math, English, SAT & Coding",
-
     description:
       "Expert 1:1 online tutoring for students worldwide.",
-
     siteName: "LearnGurukul",
-
     type: "website",
   },
 };
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-white text-gray-900">
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
