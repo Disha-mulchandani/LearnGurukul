@@ -6,101 +6,88 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-3xl"></div>
 
-      {/* GRID EFFECT */}
-      <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:60px_60px]"></div>
+      {/* GRID */}
+      <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:60px_60px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-        {/* LEFT CONTENT */}
+        {/* LEFT */}
         <div className="text-white">
 
-          {/* TRUST BADGE */}
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm text-gray-200 shadow-lg">
-            ⭐ Trusted 1:1 Online Tutoring Platform for Students Worldwide
+          {/* BADGE */}
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm text-gray-200">
+            ⭐ Trusted 1:1 Online Tutoring Platform
           </div>
 
-          {/* MAIN HEADING (SEO STRONG) */}
-          <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tight">
+          {/* TITLE */}
+          <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-tight">
             Personalized{" "}
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               1:1 Online Tutoring
             </span>
             <br />
-            for Coding, Math, Science & English
+            for Coding, Math & English
           </h1>
 
-          {/* SUBTEXT (SEO KEYWORDS HEAVY BUT NATURAL) */}
+          {/* DESCRIPTION */}
           <p className="mt-8 text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl">
-            Bright Edu provides expert-led 1:1 online tutoring for students worldwide.
-            We help you master Coding, Python, Math, Science, English, and Creative Writing
-            with personalized live classes designed to improve understanding and confidence.
+            Expert-led live tutoring for students worldwide. Learn Python, Coding,
+            Math, Science, English, and Creative Writing with personalized guidance
+            to improve skills and confidence.
           </p>
 
-          {/* CTA BUTTONS */}
+          {/* CTA */}
           <div className="mt-12 flex flex-col sm:flex-row gap-5">
 
-            {/* PRIMARY CTA */}
             <a
               href="https://tally.so/r/q4oe18"
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:scale-105 transition duration-300 shadow-2xl text-center"
             >
-              <button className="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:scale-105 transition duration-300 shadow-2xl">
-                🎓 Book Free Demo Class
-              </button>
+              🎓 Book Free Demo Class
             </a>
 
-            {/* SECONDARY CTA */}
-            <a href="/courses">
-              <button className="bg-white/5 border border-white/10 backdrop-blur-md px-8 py-4 rounded-2xl text-lg text-white hover:bg-white hover:text-black transition duration-300">
-                📚 Explore Courses
-              </button>
+            <a
+              href="/courses"
+              className="bg-white/5 border border-white/10 backdrop-blur-md px-8 py-4 rounded-2xl text-lg text-white hover:bg-white hover:text-black transition duration-300 text-center"
+            >
+              📚 Explore Courses
             </a>
 
           </div>
 
-          {/* STATS */}
-          <div className="mt-14 flex gap-10">
+          {/* STATS (REALISTIC) */}
+          <div className="mt-14 text-gray-300">
 
-            <div>
-              <h3 className="text-3xl font-bold">500+</h3>
-              <p className="text-gray-400 mt-1">Students</p>
-            </div>
-
-            <div>
-              <h3 className="text-3xl font-bold">50+</h3>
-              <p className="text-gray-400 mt-1">Expert Tutors</p>
-            </div>
-
-            <div>
-              <h3 className="text-3xl font-bold">4.9★</h3>
-              <p className="text-gray-400 mt-1">Rating</p>
-            </div>
+            <p className="text-lg font-semibold">
+              100+ classes conducted successfully
+            </p>
 
           </div>
 
         </div>
 
-        {/* RIGHT IMAGE */}
+        {/* RIGHT */}
         <div className="relative">
 
           {/* GLOW */}
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-[40px] blur-2xl opacity-30"></div>
 
-          {/* CARD */}
+          {/* IMAGE CARD */}
           <div className="relative bg-white/5 border border-white/10 backdrop-blur-xl rounded-[40px] p-5 shadow-2xl">
 
             <img
               src="https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4"
-              alt="Online 1:1 tutoring session for students learning coding and math"
+              alt="Student learning coding and math in online 1:1 tutoring session"
               className="rounded-[30px] w-full object-cover"
             />
 
-            {/* FLOATING CARD */}
+            {/* FLOAT CARD */}
             <div className="absolute -bottom-6 -left-6 bg-white text-black px-6 py-4 rounded-2xl shadow-2xl">
 
               <p className="font-bold text-lg">
-                Live 1:1 Personalized Learning
+                Live 1:1 Learning
               </p>
 
               <p className="text-gray-600 text-sm mt-1">

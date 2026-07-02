@@ -8,89 +8,61 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/">
-
           <div className="flex items-center gap-4 cursor-pointer">
 
-            {/* LOGO ICON */}
-            <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center shadow-lg">
-
-              <span className="text-white text-2xl">
-                🎓
-              </span>
-
+            {/* ICON */}
+            <div className="w-11 h-11 rounded-2xl bg-blue-600 flex items-center justify-center shadow-md">
+              <span className="text-white text-xl">🎓</span>
             </div>
 
-            {/* LOGO TEXT */}
-            <div>
-
-              <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-blue-700">
+            {/* TEXT */}
+            <div className="leading-tight">
+              <h1 className="text-xl md:text-2xl font-extrabold text-blue-700">
                 Bright Edu
               </h1>
 
-              <p className="text-xs text-gray-500 -mt-1 tracking-wide">
-               1:1 Online Tutoring for USA,UK & Worldwide Students
+              <p className="text-[11px] text-gray-500 tracking-wide">
+                1:1 Online Tutoring Worldwide
               </p>
-
             </div>
 
           </div>
-
         </Link>
 
-        {/* NAVIGATION */}
-        <div className="flex items-center gap-8 text-gray-700 font-semibold text-sm xl:text-base">
+        {/* NAV LINKS */}
+        <div className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
 
-          <Link
-            href="/"
-            className="hover:text-blue-600 transition duration-300"
-          >
+          <Link href="/" className="hover:text-blue-600 transition">
             Home
           </Link>
 
-          <Link
-            href="/courses"
-            className="hover:text-blue-600 transition duration-300"
-          >
+          <Link href="/courses" className="hover:text-blue-600 transition">
             Courses
           </Link>
 
-
-          <Link
-            href="/about"
-            className="hover:text-blue-600 transition duration-300"
-          >
+          <Link href="/about" className="hover:text-blue-600 transition">
             About
           </Link>
 
-          <Link
-            href="/contact"
-            className="hover:text-blue-600 transition duration-300"
-          >
+          <Link href="/contact" className="hover:text-blue-600 transition">
             Contact
           </Link>
 
-          <Link
-            href="/blog"
-            className="hover:text-blue-600 transition duration-300"
-          >
+          <Link href="/blog" className="hover:text-blue-600 transition">
             Blog
           </Link>
 
         </div>
 
-        {/* CTA BUTTON */}
-        <Link href="/student-enrollment">
-
-          <button className="bg-blue-600 text-white px-7 py-3 rounded-2xl font-bold shadow-lg hover:bg-blue-700 hover:scale-105 transition duration-300">
-
-            Book Free Demo
-
-          </button>
-
+        {/* CTA */}
+        <Link
+          href="/student-enrollment"
+          className="bg-blue-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:bg-blue-700 hover:scale-105 transition"
+        >
+          Book Demo
         </Link>
 
       </div>
-
     </nav>
   );
 }

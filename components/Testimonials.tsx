@@ -2,19 +2,19 @@ export default function Testimonials() {
 
   const reviews = [
     {
-      name: "Parent from UAE",
+      name: "Parent (UAE)",
       emoji: "🌟",
-      text: "My child became much more confident in English speaking and communication."
+      text: "My daughter was struggling with English speaking, but after a few classes she started speaking more confidently in daily conversations."
     },
     {
-      name: "Parent from INDIA",
+      name: "Parent (India)",
       emoji: "💻",
-      text: "Python classes were interactive, creative, and very easy to understand."
+      text: "The Python classes are very clear and step-by-step. My son now understands coding basics and enjoys practicing small programs."
     },
     {
-      name: "Parent from USA",
-      emoji: "🎨",
-      text: "Excellent online teaching methods with engaging activities and personal attention."
+      name: "Parent (USA)",
+      emoji: "📚",
+      text: "The teacher gives personal attention and explains concepts slowly. My child’s interest in Math has improved a lot."
     }
   ];
 
@@ -30,13 +30,12 @@ export default function Testimonials() {
             Loved by Students & Parents
           </div>
 
-          <h2 className="mt-8 text-5xl md:text-6xl font-extrabold text-gray-800 leading-tight">
-            Student Success Stories
+          <h2 className="mt-8 text-4xl md:text-5xl font-extrabold text-gray-800">
+            Real Learning Experiences
           </h2>
 
-          <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-            Real experiences from students and parents learning
-            with Bright Edu.
+          <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
+            Honest feedback from parents whose children are learning with personalized 1:1 online classes.
           </p>
 
         </div>
@@ -52,48 +51,43 @@ export default function Testimonials() {
             >
 
               {/* GLOW */}
-              <div className="absolute inset-0 bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300 rounded-[35px] blur-2xl opacity-30 group-hover:opacity-50 transition duration-500">
-              </div>
+              <div className="absolute inset-0 bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 rounded-[35px] blur-2xl opacity-20 group-hover:opacity-40 transition duration-500"></div>
 
               {/* CARD */}
-              <div className="relative bg-white rounded-[35px] p-10 shadow-xl hover:-translate-y-3 hover:rotate-1 transition duration-300">
+              <div className="relative bg-white rounded-[35px] p-10 shadow-lg hover:-translate-y-2 transition duration-300">
 
                 {/* TOP */}
                 <div className="flex items-center justify-between">
 
-                  <div className="text-yellow-400 text-2xl">
+                  <div className="text-yellow-400 text-xl">
                     ⭐⭐⭐⭐⭐
                   </div>
 
-                  <div className="text-4xl">
+                  <div className="text-3xl">
                     {review.emoji}
                   </div>
 
                 </div>
 
                 {/* REVIEW */}
-                <p className="mt-8 text-lg text-gray-700 leading-relaxed font-medium">
-                  "{review.text}"
+                <p className="mt-6 text-gray-700 leading-relaxed">
+                  “{review.text}”
                 </p>
 
                 {/* USER */}
-                <div className="mt-10 flex items-center gap-4">
+                <div className="mt-8 flex items-center gap-4">
 
-                  {/* AVATAR */}
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center text-white font-bold text-xl shadow-lg">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center text-white font-bold shadow-md">
                     {review.name.charAt(0)}
                   </div>
 
                   <div>
-
-                    <h3 className="text-xl font-extrabold text-gray-800">
+                    <h3 className="font-bold text-gray-800">
                       {review.name}
                     </h3>
-
-                    <p className="text-gray-500 text-sm mt-1">
-                      Verified Parent Review
+                    <p className="text-sm text-gray-500">
+                      Parent Feedback
                     </p>
-
                   </div>
 
                 </div>
@@ -107,7 +101,6 @@ export default function Testimonials() {
         </div>
 
       </div>
-
     </section>
   );
 }

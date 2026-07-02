@@ -3,44 +3,59 @@ export default function Stats() {
   const stats = [
     {
       number: "100+",
-      label: "Classes Conducted"
+      label: "Live Classes Conducted"
     },
     {
-      number: "100+",
-      label: "Students Worldwide"
+      number: "1:1",
+      label: "Personalized Learning Model"
     },
     {
       number: "10+",
-      label: "Subjects Offered"
+      label: "Academic Subjects Covered"
     },
     {
-      number: "95%",
-      label: "Student Satisfaction"
+      number: "Trusted",
+      label: "By Parents Worldwide"
     }
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-r from-blue-700 to-purple-700 text-white px-6">
+    <section className="py-24 bg-gradient-to-b from-blue-50 to-white px-6">
 
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto">
 
-        {stats.map((stat, index) => (
+        {/* TITLE */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+            Why Parents Trust Us
+          </h2>
 
-          <div
-            key={index}
-            className="text-center"
-          >
-            <h2 className="text-6xl font-extrabold">
-              {stat.number}
-            </h2>
+          <p className="mt-4 text-gray-600 text-lg max-w-2xl mx-auto">
+            We focus on real learning outcomes, personalized attention, and student confidence growth.
+          </p>
+        </div>
 
-            <p className="mt-4 text-xl text-white/80">
-              {stat.label}
-            </p>
+        {/* STATS */}
+        <div className="grid md:grid-cols-4 gap-10">
 
-          </div>
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="text-center bg-white rounded-2xl shadow-md p-10 hover:shadow-xl transition"
+            >
 
-        ))}
+              <h2 className="text-5xl font-extrabold text-blue-700">
+                {stat.number}
+              </h2>
+
+              <p className="mt-3 text-lg text-gray-600 font-medium">
+                {stat.label}
+              </p>
+
+            </div>
+          ))}
+
+        </div>
 
       </div>
 
