@@ -3,19 +3,19 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://learnora-academy.vercel.app/",
+      url: "https://learngurukul.com",
       lastModified: new Date(),
     },
     {
-      url: "https://learnora-academy.vercel.app/courses",
+      url: "https://learngurukul.com/about",
       lastModified: new Date(),
     },
     {
-      url: "https://learnora-academy.vercel.app/sat-math-preparation",
+      url: "https://learngurukul.com/contact",
       lastModified: new Date(),
     },
     {
-      url: "https://learnora-academy.vercel.app/online-python-classes",
+      url: "https://learngurukul.com/courses",
       lastModified: new Date(),
     },
   ];
