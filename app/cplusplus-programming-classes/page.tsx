@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Online C++ Programming Classes for Kids & Beginners | Bright Edu",
+  title: "Online C++ Programming Classes for Kids & Beginners | LearnGurukul",
 
   description:
-    "Learn C++ programming online with personalized 1:1 tutoring for students worldwide. Build coding logic, problem-solving skills, algorithms, and programming confidence through interactive live classes.",
+    "Learn C++ programming online with personalized 1:1 tutoring. Build coding logic, problem-solving skills, algorithms, and programming confidence through interactive live classes for students worldwide.",
 
   keywords: [
     "online C++ classes",
@@ -24,15 +23,25 @@ export const metadata: Metadata = {
     "C++ homework help",
     "coding logic classes",
     "algorithms and programming",
-    "Bright Edu C++ classes",
+
+    // 🌍 SEO expansion
+    "online programming classes",
+    "computer science tutoring",
+    "coding classes online USA UK India",
+    "learn programming languages",
+    "software development basics",
+
+    // 💻 related programming languages
+    "Python programming classes",
+    "Java programming classes",
+    "JavaScript coding classes"
   ],
 
   openGraph: {
-    title:
-      "Online C++ Programming Classes | Bright Edu",
+    title: "Online C++ Programming Classes | LearnGurukul",
     description:
       "Interactive 1:1 C++ programming classes for beginners and school students worldwide.",
-    siteName: "Bright Edu",
+    siteName: "LearnGurukul",
     type: "website",
   },
 };
@@ -50,14 +59,12 @@ export default function CPPPage() {
           <div>
 
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-semibold text-sm">
-              💻 Interactive Coding Classes
+              💻 Interactive Coding Classes by LearnGurukul
             </div>
 
             <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-tight text-gray-900">
               Online{" "}
-              <span className="text-blue-600">
-                C++ Programming
-              </span>{" "}
+              <span className="text-blue-600">C++ Programming</span>{" "}
               Classes
             </h1>
 
@@ -93,40 +100,25 @@ export default function CPPPage() {
             <div className="mt-14 grid sm:grid-cols-3 gap-6">
 
               <div className="bg-white p-6 rounded-2xl shadow-sm border">
-                <h3 className="text-3xl font-extrabold text-blue-600">
-                  1:1
-                </h3>
-
-                <p className="mt-2 text-gray-600">
-                  Personalized Live Classes
-                </p>
+                <h3 className="text-3xl font-extrabold text-blue-600">1:1</h3>
+                <p className="mt-2 text-gray-600">Personalized Live Classes</p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl shadow-sm border">
-                <h3 className="text-3xl font-extrabold text-purple-600">
-                  Beginner
-                </h3>
-
-                <p className="mt-2 text-gray-600">
-                  Friendly Learning Path
-                </p>
+                <h3 className="text-3xl font-extrabold text-purple-600">Beginner</h3>
+                <p className="mt-2 text-gray-600">Friendly Learning Path</p>
               </div>
 
               <div className="bg-white p-6 rounded-2xl shadow-sm border">
-                <h3 className="text-3xl font-extrabold text-green-600">
-                  Real
-                </h3>
-
-                <p className="mt-2 text-gray-600">
-                  Coding Projects & Practice
-                </p>
+                <h3 className="text-3xl font-extrabold text-green-600">Projects</h3>
+                <p className="mt-2 text-gray-600">Real Coding Practice</p>
               </div>
 
             </div>
 
           </div>
 
-          {/* RIGHT */}
+          {/* RIGHT IMAGE */}
           <div className="relative">
 
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-400 blur-3xl opacity-20 rounded-[40px]"></div>
@@ -135,7 +127,7 @@ export default function CPPPage() {
 
               <img
                 src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
-                alt="Student learning C++ programming online"
+                alt="C++ programming class LearnGurukul"
                 className="w-full h-full object-cover"
               />
 
@@ -150,20 +142,15 @@ export default function CPPPage() {
       {/* WHAT STUDENTS LEARN */}
       <section className="px-6 py-20">
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto text-center">
 
-          <div className="text-center max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+            What Students Learn
+          </h2>
 
-            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-              What Students Learn
-            </h2>
-
-            <p className="mt-6 text-lg text-gray-600">
-              Our structured C++ curriculum helps students master coding
-              concepts step-by-step with practical examples and projects.
-            </p>
-
-          </div>
+          <p className="mt-6 text-lg text-gray-600">
+            Step-by-step structured C++ programming course for beginners.
+          </p>
 
           <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
@@ -175,24 +162,17 @@ export default function CPPPage() {
               "Problem Solving",
               "Algorithms & Logic",
               "Competitive Coding",
-              "Project Building",
+              "Mini Projects",
             ].map((item, index) => (
-
               <div
                 key={index}
                 className="bg-white p-6 rounded-3xl border shadow-sm hover:shadow-lg transition"
               >
-
-                <div className="text-4xl">
-                  🚀
-                </div>
-
+                <div className="text-4xl">🚀</div>
                 <h3 className="mt-5 text-xl font-bold text-gray-900">
                   {item}
                 </h3>
-
               </div>
-
             ))}
 
           </div>
@@ -207,49 +187,33 @@ export default function CPPPage() {
         <div className="max-w-6xl mx-auto text-center">
 
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-            Why Choose Bright Edu?
+            Why Choose LearnGurukul?
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
-            We focus on practical coding skills, confidence building,
-            and personalized attention for every student.
+            We focus on practical coding skills, logic building, and real projects.
           </p>
 
           <div className="mt-16 grid md:grid-cols-3 gap-8">
 
             <div className="p-8 rounded-3xl bg-blue-50 border">
-              <div className="text-5xl">👨‍🏫</div>
-
-              <h3 className="mt-5 text-2xl font-bold">
-                Expert Tutors
-              </h3>
-
+              <h3 className="text-2xl font-bold">Expert Tutors</h3>
               <p className="mt-4 text-gray-600">
-                Learn from experienced programming mentors who simplify coding concepts.
+                Simplified coding learning with expert guidance.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-purple-50 border">
-              <div className="text-5xl">💡</div>
-
-              <h3 className="mt-5 text-2xl font-bold">
-                Interactive Classes
-              </h3>
-
+              <h3 className="text-2xl font-bold">Interactive Classes</h3>
               <p className="mt-4 text-gray-600">
-                Live coding sessions with hands-on exercises and real projects.
+                Live coding practice and real-time problem solving.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-green-50 border">
-              <div className="text-5xl">🌍</div>
-
-              <h3 className="mt-5 text-2xl font-bold">
-                Global Learning
-              </h3>
-
+              <h3 className="text-2xl font-bold">Global Learning</h3>
               <p className="mt-4 text-gray-600">
-                Flexible online classes for students in the USA and worldwide.
+                Students from USA, UK, India, Canada & more.
               </p>
             </div>
 
@@ -265,11 +229,11 @@ export default function CPPPage() {
         <div className="max-w-5xl mx-auto text-center bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[40px] p-12 text-white shadow-2xl">
 
           <h2 className="text-4xl md:text-5xl font-extrabold">
-            Start Your Coding Journey Today 🚀
+            Start Coding Journey Today 🚀
           </h2>
 
           <p className="mt-6 text-xl text-white/90">
-            Join personalized online C++ classes designed to build coding confidence and real programming skills.
+            Join LearnGurukul C++ classes and become a confident programmer.
           </p>
 
           <a

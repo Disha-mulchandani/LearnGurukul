@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Online Hindi Classes | Bright Edu",
+  title: "Online Hindi Classes | LearnGurukul",
   description:
-    "Interactive Hindi language classes for speaking, grammar, writing, and reading skills.",
+    "Interactive online Hindi classes for speaking, reading, writing, grammar, and vocabulary. 1:1 tutoring for students worldwide.",
 };
 
 export default function HindiPage() {
@@ -11,7 +11,7 @@ export default function HindiPage() {
       <div className="max-w-7xl mx-auto text-center">
 
         <p className="text-red-600 font-bold tracking-[4px] uppercase">
-          Hindi Language Classes
+          LearnGurukul Hindi Classes
         </p>
 
         <h1 className="mt-6 text-5xl md:text-7xl font-extrabold text-gray-900">
@@ -19,10 +19,20 @@ export default function HindiPage() {
         </h1>
 
         <p className="mt-8 text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-          Improve Hindi speaking, reading, writing, vocabulary,
-          and grammar through engaging one-to-one online classes
-          designed for students of all levels.
+          Learn Hindi speaking, reading, writing, vocabulary,
+          and grammar through engaging 1:1 online classes.
+          Designed for students across USA, UK, Canada, Australia, India, and Africa.
         </p>
+
+        <div className="mt-10 text-lg text-gray-700">
+          <h2 className="font-bold">What we teach:</h2>
+          <ul className="mt-4 space-y-2">
+            <li>✔ Hindi speaking practice</li>
+            <li>✔ Grammar improvement</li>
+            <li>✔ Reading & writing skills</li>
+            <li>✔ Vocabulary building</li>
+          </ul>
+        </div>
 
       </div>
 

@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Java Programming Classes | Bright Edu",
+  title: "Online Java Programming Classes | LearnGurukul",
 
   description:
-    "Learn Java programming online through beginner-friendly coding lessons, object-oriented programming, projects, and AP Computer Science support.",
+    "Learn Java programming online through beginner-friendly coding lessons, object-oriented programming, and real-world projects. Ideal for beginners, students, and future software developers worldwide.",
 };
 
 export default function JavaProgrammingPage() {
@@ -19,9 +19,9 @@ export default function JavaProgrammingPage() {
         </h1>
 
         <p className="mt-8 text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-          Learn Java programming through interactive online classes designed
+          Learn Java programming through interactive 1:1 online classes designed
           for beginners, school students, AP Computer Science learners,
-          and future software developers worldwide.
+          and future software developers across USA, UK, Canada, Australia, India, and Africa.
         </p>
 
       </div>
@@ -71,8 +71,8 @@ export default function JavaProgrammingPage() {
 
         <p className="mt-8 text-lg text-gray-600 leading-relaxed">
           Java is one of the most widely used programming languages in the world.
-          Students learn coding logic, software development, app creation,
-          and strong computer science fundamentals useful for academics and careers.
+          It builds strong logic, problem-solving skills, and is widely used in software development,
+          apps, and backend systems.
         </p>
 
       </section>

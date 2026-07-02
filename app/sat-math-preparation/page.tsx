@@ -2,123 +2,118 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "SAT Math Preparation Online | Bright Edu",
+  title: "SAT Math Preparation Online | LearnGurukul",
   description:
-    "Prepare for SAT Math with personalized online tutoring, practice questions, and step-by-step explanations for USA and international students.",
+    "Prepare for SAT Math with expert online tutoring, practice tests, step-by-step explanations, and personalized learning for USA and international students.",
 };
 
 export default function SATMathPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-blue-50 px-6 py-24">
+    <main className="min-h-screen bg-white px-6 py-24">
 
-      {/* HERO SECTION */}
+      {/* HERO */}
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-5xl font-extrabold text-blue-700">
-          SAT Math Preparation
-        </h1>
 
-        <p className="mt-8 text-xl text-black leading-relaxed">
-          Master SAT Math with structured learning, real exam-style practice,
-          step-by-step explanations, and personalized online tutoring designed
-          for US and international students.
+        <p className="text-blue-600 font-semibold tracking-[4px] uppercase">
+          LearnGurukul SAT Preparation
         </p>
 
-        <div className="mt-6 text-black">
-          Covering Algebra, Geometry, Data Analysis, Word Problems, and Advanced Problem Solving.
+        <h1 className="mt-6 text-5xl md:text-6xl font-extrabold text-gray-900">
+          SAT Math Preparation Online
+        </h1>
+
+        <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed">
+          Master SAT Math with structured lessons, practice questions,
+          and personalized 1:1 tutoring. Designed for students in the USA
+          and worldwide aiming for high SAT scores.
+        </p>
+
+        <p className="mt-6 text-gray-600">
+          Topics include Algebra, Geometry, Data Analysis, Word Problems, and Advanced Problem Solving.
+        </p>
+
+        {/* CTA */}
+        <div className="mt-10">
+          <Link
+            href="/student-enrollment"
+            className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition"
+          >
+            Book Free Demo Class
+          </Link>
         </div>
+
       </div>
 
       {/* FEATURES */}
-      <section className="mt-20 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <section className="mt-20 max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
 
-        <div className="bg-white p-8 rounded-2xl shadow-sm border">
-          <h2 className="text-2xl font-bold text-blue-700">📘 Algebra Mastery</h2>
-          <p className="mt-4 text-black">
-            Linear equations, inequalities, functions, and expressions explained with SAT-level practice questions and shortcuts.
+        <div className="border rounded-2xl p-6 hover:shadow-md transition">
+          <h2 className="text-xl font-semibold text-gray-900">
+            Algebra Mastery
+          </h2>
+          <p className="mt-3 text-gray-600">
+            Linear equations, inequalities, functions, and SAT-level problem solving techniques.
           </p>
         </div>
 
-        <div className="bg-white p-8 rounded-2xl shadow-sm border">
-          <h2 className="text-2xl font-bold text-blue-700">📐 Geometry & Trigonometry</h2>
-          <p className="mt-4 text-black">
-            Learn triangles, circles, angles, coordinate geometry, and essential formulas used in SAT exam questions.
+        <div className="border rounded-2xl p-6 hover:shadow-md transition">
+          <h2 className="text-xl font-semibold text-gray-900">
+            Geometry & Trigonometry
+          </h2>
+          <p className="mt-3 text-gray-600">
+            Learn triangles, circles, coordinate geometry, and essential SAT formulas.
           </p>
         </div>
 
-        <div className="bg-white p-8 rounded-2xl shadow-sm border">
-          <h2 className="text-2xl font-bold text-blue-700">⏱ Speed & Accuracy</h2>
-          <p className="mt-4 text-black">
-            Improve time management with timed quizzes, tricks, and strategies to solve questions faster with accuracy.
+        <div className="border rounded-2xl p-6 hover:shadow-md transition">
+          <h2 className="text-xl font-semibold text-gray-900">
+            Speed & Accuracy
+          </h2>
+          <p className="mt-3 text-gray-600">
+            Improve timing strategies, shortcuts, and accuracy for real exam performance.
           </p>
         </div>
 
       </section>
 
-      {/* WHAT STUDENTS GET */}
-      <section className="mt-24 max-w-5xl mx-auto bg-white p-10 rounded-2xl shadow-sm border">
-        <h2 className="text-3xl font-bold text-blue-700 text-center">
+      {/* WHAT YOU LEARN */}
+      <section className="mt-24 max-w-4xl mx-auto text-center">
+
+        <h2 className="text-3xl font-bold text-gray-900">
           What You Will Learn
         </h2>
 
-        <ul className="mt-8 space-y-4 text-black text-lg">
-          <li>✔ Step-by-step SAT Math problem solving techniques</li>
-          <li>✔ Real SAT-style practice questions with explanations</li>
+        <ul className="mt-8 text-gray-600 space-y-3 text-left inline-block">
+          <li>✔ Step-by-step SAT Math solving methods</li>
+          <li>✔ Real exam-style practice questions</li>
           <li>✔ Formula sheets for quick revision</li>
-          <li>✔ Graph-based and data interpretation questions</li>
-          <li>✔ Tricks to eliminate wrong answers quickly</li>
-          <li>✔ Full-length mock tests with scoring analysis</li>
+          <li>✔ Data interpretation & graph questions</li>
+          <li>✔ Time-saving strategies and shortcuts</li>
+          <li>✔ Full-length mock tests with analysis</li>
         </ul>
-      </section>
-
-      {/* PRACTICE TYPES */}
-      <section className="mt-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-
-        <div className="bg-white p-8 rounded-2xl border shadow-sm">
-          <h3 className="text-2xl font-bold text-blue-700">🧠 Concept Building</h3>
-          <p className="mt-4 text-black">
-            Learn each topic from basics to advanced level with visual explanations and guided examples.
-          </p>
-        </div>
-
-        <div className="bg-white p-8 rounded-2xl border shadow-sm">
-          <h3 className="text-2xl font-bold text-blue-700">📝 Practice Tests</h3>
-          <p className="mt-4 text-black">
-            Solve chapter-wise quizzes and full-length SAT mock tests designed to simulate real exam difficulty.
-          </p>
-        </div>
-
-        <div className="bg-white p-8 rounded-2xl border shadow-sm">
-          <h3 className="text-2xl font-bold text-blue-700">📊 Performance Tracking</h3>
-          <p className="mt-4 text-black">
-            Track accuracy, speed, and weak areas with detailed feedback after every test.
-          </p>
-        </div>
-
-        <div className="bg-white p-8 rounded-2xl border shadow-sm">
-          <h3 className="text-2xl font-bold text-blue-700">🎯 Exam Strategy</h3>
-          <p className="mt-4 text-black">
-            Learn how to attempt SAT Math strategically, manage time, and avoid common mistakes.
-          </p>
-        </div>
 
       </section>
 
-      {/* CTA */}
-      <div className="mt-24 text-center">
-        <h2 className="text-3xl font-bold text-blue-700">
-          Start Your SAT Math Journey Today
+      {/* FINAL CTA */}
+      <div className="mt-24 text-center bg-blue-50 py-16 rounded-2xl max-w-5xl mx-auto">
+
+        <h2 className="text-3xl font-bold text-gray-900">
+          Improve Your SAT Math Score Today
         </h2>
 
-        <p className="mt-4 text-black">
-          Join personalized online tutoring and improve your SAT score step by step.
+        <p className="mt-4 text-gray-600">
+          Join personalized online SAT tutoring and start practicing with expert guidance.
         </p>
 
-        <Link
-          href="/student-enrollment"
-          className="mt-8 inline-block bg-blue-600 hover:bg-blue-700 transition text-white px-10 py-4 rounded-2xl font-semibold"
-        >
-          Book Free Demo
-        </Link>
+        <div className="mt-8">
+          <Link
+            href="/student-enrollment"
+            className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition"
+          >
+            Start Free Demo
+          </Link>
+        </div>
+
       </div>
 
     </main>

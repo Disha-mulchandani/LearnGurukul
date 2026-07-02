@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Homework Help for Students | Bright Edu",
+  title: "Online Homework Help for Students | LearnGurukul",
 
   description:
-    "Get personalized online homework help in Math, Science, English, Coding, Algebra, SAT preparation, and school subjects for students worldwide.",
+    "Get personalized 1:1 online homework help in Math, Science, English, Coding, SAT preparation, and school subjects for students worldwide.",
 };
 
 export default function HomeworkHelpPage() {
@@ -21,9 +21,9 @@ export default function HomeworkHelpPage() {
         </h1>
 
         <p className="mt-8 text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-          Get step-by-step homework help in Math, Science, English,
-          Coding, SAT preparation, Algebra, and academic subjects through
-          personalized online tutoring for USA and international students.
+          Get step-by-step 1:1 online homework help in Math, Science, English,
+          Coding, SAT preparation, Algebra, and school subjects for students
+          in the USA, UK, Canada, Australia, India, and worldwide.
         </p>
 
       </div>
@@ -39,8 +39,8 @@ export default function HomeworkHelpPage() {
           </h2>
 
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Support for Algebra, Geometry, Fractions,
-            SAT Math, equations, and school assignments.
+            Help with Algebra, Geometry, Fractions, Equations,
+            and SAT Math problems.
           </p>
 
         </div>
@@ -52,8 +52,8 @@ export default function HomeworkHelpPage() {
           </h2>
 
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Understand Physics, Biology, Chemistry,
-            and scientific concepts with guided explanations.
+            Biology, Chemistry, Physics, and concept-based learning
+            with simple explanations.
           </p>
 
         </div>
@@ -65,8 +65,8 @@ export default function HomeworkHelpPage() {
           </h2>
 
           <p className="mt-4 text-gray-600 leading-relaxed">
-            Homework help for Python, Java, AP Computer Science,
-            projects, logic building, and programming concepts.
+            Python, Java, AP Computer Science, and programming projects
+            with step-by-step guidance.
           </p>
 
         </div>
@@ -78,14 +78,12 @@ export default function HomeworkHelpPage() {
       <section className="mt-28 max-w-5xl mx-auto text-center">
 
         <h2 className="text-4xl font-bold text-gray-800">
-          Why Students Choose LearnAtHome
+          Why Students Choose LearnGurukul
         </h2>
 
         <p className="mt-8 text-lg text-gray-600 leading-relaxed">
-          Our personalized one-to-one tutoring helps students
-          improve confidence, understand concepts clearly,
-          complete assignments successfully, and develop
-          strong academic skills for school and beyond.
+          Our 1:1 online tutoring helps students understand concepts clearly,
+          complete assignments faster, and improve academic performance with confidence.
         </p>
 
       </section>
@@ -101,7 +99,7 @@ export default function HomeworkHelpPage() {
           </h3>
 
           <p className="mt-4 text-gray-600">
-            Learn concepts clearly instead of memorizing answers.
+            Learn concepts instead of memorizing answers.
           </p>
 
         </div>
@@ -113,8 +111,7 @@ export default function HomeworkHelpPage() {
           </h3>
 
           <p className="mt-4 text-gray-600">
-            Flexible online classes for students in the USA,
-            UK, Canada, UAE, and worldwide.
+            Students from USA, UK, Canada, Australia, India, and more.
           </p>
 
         </div>

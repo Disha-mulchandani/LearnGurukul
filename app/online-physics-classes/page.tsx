@@ -1,77 +1,58 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-
-export const metadata: Metadata = {
-  title: "Online Physics Classes for Students | Bright Edu",
-
+export const metadata = {
+  title: "Online Python Programming Classes | LearnGurukul",
   description:
-    "Learn Physics online through interactive tutoring, problem-solving, visual explanations, and personalized support for school students worldwide.",
+    "Interactive online Python programming classes for beginners to advanced learners. Learn coding, projects, logic building, and AI basics with 1:1 tutoring worldwide.",
 };
 
-export default function PhysicsPage() {
+export default function PythonPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-blue-50 px-6 py-24">
+    <main className="min-h-screen bg-gradient-to-b from-[#eef7ff] via-white to-[#f5fbff] px-6 py-28">
 
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center">
 
-        <h1 className="text-5xl md:text-6xl font-extrabold text-blue-700">
-          Online Physics Classes
+        {/* HEADER */}
+        <p className="text-blue-600 font-bold tracking-[4px] uppercase">
+          LearnGurukul Python Classes
+        </p>
+
+        <h1 className="mt-6 text-5xl md:text-7xl font-extrabold text-gray-900">
+          Online Python Programming Classes
         </h1>
 
         <p className="mt-8 text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-          Understand Physics concepts through visual explanations,
-          equations, problem-solving, and personalized tutoring
-          for school students worldwide.
+          Learn Python programming from basics to advanced through interactive
+          1:1 online classes. Perfect for beginners, school students, and future
+          developers interested in AI, web development, and automation.
         </p>
 
-      </div>
+        {/* WHAT WE TEACH (SEO LIST) */}
+        <div className="mt-12 text-lg text-gray-700 max-w-2xl mx-auto">
 
-      <section className="mt-24 max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-
-        <div className="bg-white p-8 rounded-3xl shadow-lg border">
-          <h2 className="text-2xl font-bold text-blue-700">
-            ⚡ Mechanics
+          <h2 className="font-bold text-xl text-gray-900">
+            What you will learn:
           </h2>
 
-          <p className="mt-4 text-gray-600">
-            Learn motion, force, energy,
-            velocity, and real-world applications.
-          </p>
+          <ul className="mt-4 space-y-2 text-gray-600">
+            <li>✔ Python basics (variables, loops, conditions)</li>
+            <li>✔ Functions, data structures & problem solving</li>
+            <li>✔ Real-world coding projects</li>
+            <li>✔ Logic building & programming skills</li>
+            <li>✔ Introduction to AI & automation</li>
+          </ul>
+
         </div>
 
-        <div className="bg-white p-8 rounded-3xl shadow-lg border">
-          <h2 className="text-2xl font-bold text-blue-700">
-            🔬 Problem Solving
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Develop confidence solving Physics equations and numerical problems.
-          </p>
+        {/* CTA */}
+        <div className="mt-12">
+          <a
+            href="/student-enrollment"
+            className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-700 transition"
+          >
+            Book Free Demo Class
+          </a>
         </div>
-
-        <div className="bg-white p-8 rounded-3xl shadow-lg border">
-          <h2 className="text-2xl font-bold text-blue-700">
-            📘 Exam Preparation
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            School exam support with conceptual clarity and guided practice.
-          </p>
-        </div>
-
-      </section>
-
-      <div className="mt-24 text-center">
-
-        <Link
-          href="/student-enrollment"
-          className="inline-block bg-blue-600 hover:bg-blue-700 transition text-white px-10 py-5 rounded-2xl text-xl font-bold shadow-xl"
-        >
-          Book Free Physics Demo
-        </Link>
 
       </div>
-
     </main>
   );
 }

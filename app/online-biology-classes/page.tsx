@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Online Biology Classes | Bright Edu",
+  title: "Online Biology Classes | LearnGurukul",
   description:
-    "Interactive Biology tutoring for students worldwide with diagrams, visual explanations, and personalized guidance.",
+    "Interactive online Biology tutoring with diagrams, visual explanations, and personalized 1:1 guidance for students worldwide.",
 };
 
 export default function BiologyPage() {
@@ -13,7 +13,7 @@ export default function BiologyPage() {
         <div className="text-center max-w-5xl mx-auto">
 
           <p className="text-green-700 font-bold tracking-[4px] uppercase">
-            Biology Classes
+            LearnGurukul Biology Classes
           </p>
 
           <h1 className="mt-6 text-5xl md:text-7xl font-extrabold text-gray-900">
@@ -22,8 +22,8 @@ export default function BiologyPage() {
 
           <p className="mt-8 text-xl text-gray-600 leading-relaxed">
             Learn Biology through interactive diagrams,
-            visual explanations, and personalized online tutoring
-            designed to build strong conceptual understanding.
+            visual explanations, and personalized 1:1 online tutoring
+            designed to build strong conceptual understanding in students worldwide.
           </p>
 
         </div>
@@ -36,8 +36,8 @@ export default function BiologyPage() {
             </h3>
 
             <p className="mt-5 text-gray-600 leading-relaxed">
-              Learn cells, systems, genetics, and life science
-              concepts through engaging diagrams and explanations.
+              Learn cells, organs, genetics, and life science concepts
+              through clear diagrams and simplified explanations.
             </p>
           </div>
 
@@ -47,8 +47,8 @@ export default function BiologyPage() {
             </h3>
 
             <p className="mt-5 text-gray-600 leading-relaxed">
-              Personalized lessons designed to improve understanding,
-              confidence, and school performance.
+              Personalized tutoring to improve school performance,
+              exam results, and conceptual clarity.
             </p>
           </div>
 
@@ -58,8 +58,8 @@ export default function BiologyPage() {
             </h3>
 
             <p className="mt-5 text-gray-600 leading-relaxed">
-              Live one-to-one online classes focused on
-              student engagement and practical learning.
+              Live 1:1 online Biology classes focused on engagement,
+              understanding, and practical learning.
             </p>
           </div>
 

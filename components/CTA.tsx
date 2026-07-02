@@ -2,46 +2,46 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <section className="py-28 px-6 bg-gradient-to-r from-blue-700 via-purple-700 to-pink-600 text-white">
+    <section className="py-24 px-6 bg-blue-600 text-white">
 
-      <div className="max-w-5xl mx-auto text-center">
+      <div className="max-w-4xl mx-auto text-center">
 
-        <h2 className="text-5xl md:text-6xl font-extrabold leading-tight">
+        {/* TITLE */}
+        <h2 className="text-4xl md:text-5xl font-bold leading-tight">
           Personalized Online Tutoring for Students Worldwide
         </h2>
 
-        <p className="mt-8 text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+        {/* DESCRIPTION */}
+        <p className="mt-6 text-lg md:text-xl text-white/90 leading-relaxed">
           Learn Math, SAT, Science, Coding, English, and more through
-          interactive one-to-one online classes designed for students
-          in the USA and around the world.
+          interactive one-to-one online classes designed for global students.
         </p>
 
-        <div className="mt-12 flex flex-col sm:flex-row justify-center gap-5">
+        {/* BUTTONS */}
+        <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
 
-          <Link href="/student-enrollment">
-
-            <button className="bg-white text-blue-700 px-10 py-5 rounded-2xl text-xl font-bold hover:scale-105 transition shadow-xl">
-              Book Free Demo
-            </button>
-
+          <Link
+            href="/student-enrollment"
+            className="bg-white text-blue-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition"
+          >
+            Book Free Demo
           </Link>
 
-          <Link href="/courses">
-
-            <button className="border-2 border-white px-10 py-5 rounded-2xl text-xl font-bold hover:bg-white hover:text-blue-700 transition">
-              Explore Courses
-            </button>
-
+          <Link
+            href="/courses"
+            className="border border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-blue-700 transition"
+          >
+            Explore Courses
           </Link>
 
         </div>
 
-        <p className="mt-8 text-white/80 text-sm tracking-wide uppercase">
-          Supporting USA, UK, Canada, UAE & International Students
+        {/* FOOT NOTE */}
+        <p className="mt-8 text-sm text-white/80 uppercase tracking-wider">
+          Supporting USA • UK • Canada • UAE • International Students
         </p>
 
       </div>
-
     </section>
   );
 }

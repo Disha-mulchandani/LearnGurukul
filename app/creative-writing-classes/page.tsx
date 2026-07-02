@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Online Creative Writing Classes | Bright Edu",
+  title: "Online Creative Writing Classes | LearnGurukul",
   description:
-    "Personalized one-to-one creative writing classes for students worldwide.",
+    "Personalized 1:1 online creative writing classes to improve storytelling, imagination, grammar, vocabulary, and essay writing skills for students worldwide.",
 };
 
 export default function CreativeWritingPage() {
@@ -14,7 +14,7 @@ export default function CreativeWritingPage() {
         <div className="text-center max-w-4xl mx-auto">
 
           <p className="text-purple-600 font-bold tracking-[3px] uppercase">
-            Creative Writing Classes
+            LearnGurukul Creative Writing
           </p>
 
           <h1 className="mt-6 text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight">
@@ -23,8 +23,8 @@ export default function CreativeWritingPage() {
 
           <p className="mt-8 text-xl text-gray-600 leading-relaxed">
             Improve storytelling, imagination, descriptive writing,
-            grammar, and vocabulary through engaging one-to-one
-            online creative writing sessions.
+            grammar, vocabulary, and essay writing through engaging
+            1:1 online creative writing sessions for students worldwide.
           </p>
 
         </div>

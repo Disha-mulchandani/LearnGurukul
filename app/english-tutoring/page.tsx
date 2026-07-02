@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "English Tutoring Online | 1:1 English Classes, Grammar, Writing & Speaking | Bright Edu",
+    "English Tutoring Online | 1:1 English Classes, Grammar, Writing & Speaking | LearnGurukul",
 
   description:
-    "Improve English skills with 1:1 online tutoring. Learn grammar, reading, writing, vocabulary, and speaking with expert tutors for USA & global students. Personalized English classes for kids and school students.",
+    "Improve English skills with 1:1 online tutoring. Learn grammar, reading, writing, vocabulary, and speaking with expert tutors for USA & global students. Personalized English classes for school students worldwide.",
 
   keywords: [
     "online english tutor",
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     "creative writing tutor",
     "english improvement classes",
     "learn english online",
+    "LearnGurukul english classes",
   ],
 };
 
