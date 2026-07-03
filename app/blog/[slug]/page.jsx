@@ -1,4 +1,4 @@
-import { blogs } from "@/data/blogs";
+import { blogs } from "@/app/data/blogs";
 import { notFound } from "next/navigation";
 
 export default function BlogPage({ params }) {
