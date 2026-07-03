@@ -1,46 +1,18 @@
 import { blogs } from "@/app/data/blogs";
-import Link from "next/link";
+import { notFound } from "next/navigation";
 
-export default function BlogListPage() {
+export default function BlogPage({ params }) {
+  const blog = blogs.find((b) => b.slug === params.slug);
+
+  if (!blog) return notFound();
+
   return (
-    <main className="min-h-screen px-6 py-20 bg-gray-50">
+    <main className="min-h-screen px-6 py-20">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-4xl font-bold">{blog.title}</h1>
 
-      <div className="max-w-5xl mx-auto text-center">
-
-        <h1 className="text-4xl font-bold text-gray-900">
-          LearnGurukul Blogs
-        </h1>
-
-        <p className="mt-4 text-gray-600">
-          Educational blogs for students to improve learning skills
-        </p>
-
+        <p className="mt-6 text-gray-700">{blog.content}</p>
       </div>
-
-      <div className="max-w-5xl mx-auto mt-12 grid md:grid-cols-3 gap-6">
-
-        {blogs.map((blog) => (
-          <Link
-            key={blog.slug}
-            href={`/blog/${blog.slug}`}
-            className="bg-white p-6 rounded-xl border hover:shadow-md transition"
-          >
-            <h2 className="text-xl font-semibold text-gray-900">
-              {blog.title}
-            </h2>
-
-            <p className="mt-3 text-gray-600 text-sm">
-              {blog.description}
-            </p>
-
-            <p className="mt-4 text-blue-600 font-medium">
-              Read more →
-            </p>
-          </Link>
-        ))}
-
-      </div>
-
     </main>
   );
 }
