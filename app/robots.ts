@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://learnora-academy.vercel.app/sitemap.xml',
+    sitemap: 'const baseUrl = "https://www.learngurukul.com";',
   }
 }

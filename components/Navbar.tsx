@@ -4,21 +4,24 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl border-b border-gray-200 z-50 shadow-sm">
-
+      
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
 
         {/* LOGO */}
         <Link href="/">
-          <div className="flex items-center gap-4 cursor-pointer">
+          <div className="flex items-center gap-3">
 
-            {/* LOGO IMAGE */}
-            <Image
-              src="/logo.jpeg"
-              alt="LearnGurukul Logo"
-              width={52}
-              height={52}
-              className="rounded-xl object-cover"
-            />
+            {/* LOGO IMAGE WRAPPER (FIXES CROPPING ISSUE) */}
+          <div className="w-20 h-16 rounded-xl overflow-hidden bg-white flex items-center justify-center">
+              <Image
+  src="/logo.jpeg"
+  alt="LearnGurukul Logo"
+  width={80}
+  height={80}
+  className="object-cover scale-125"
+/>
+
+            </div>
 
             {/* TEXT */}
             <div className="leading-tight">
