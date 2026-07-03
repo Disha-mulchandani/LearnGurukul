@@ -18,7 +18,7 @@ export default function Navbar() {
             {/* TEXT */}
             <div className="leading-tight">
               <h1 className="text-xl md:text-2xl font-extrabold text-blue-700">
-                Bright Edu
+                LearnGurukul
               </h1>
 
               <p className="text-[11px] text-gray-500 tracking-wide">
