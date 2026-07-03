@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Online Python Programming Classes | Bright Edu",
+  title: "Online Python Programming Classes | ",
   description:
     "Interactive online Python programming classes for students with beginner to advanced coding lessons, projects, and personalized learning.",
 };

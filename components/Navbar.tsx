@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -10,10 +11,14 @@ export default function Navbar() {
         <Link href="/">
           <div className="flex items-center gap-4 cursor-pointer">
 
-            {/* ICON */}
-            <div className="w-11 h-11 rounded-2xl bg-blue-600 flex items-center justify-center shadow-md">
-              <span className="text-white text-xl">🎓</span>
-            </div>
+            {/* LOGO IMAGE */}
+            <Image
+              src="/logo.jpeg"
+              alt="LearnGurukul Logo"
+              width={52}
+              height={52}
+              className="rounded-xl object-cover"
+            />
 
             {/* TEXT */}
             <div className="leading-tight">
@@ -22,7 +27,7 @@ export default function Navbar() {
               </h1>
 
               <p className="text-[11px] text-gray-500 tracking-wide">
-                1:1 Online Tutoring Worldwide
+                Live Classes | Interactive Learning
               </p>
             </div>
 
@@ -54,7 +59,7 @@ export default function Navbar() {
 
         </div>
 
-        {/* CTA */}
+        {/* CTA BUTTON */}
         <Link
           href="/student-enrollment"
           className="bg-blue-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:bg-blue-700 hover:scale-105 transition"

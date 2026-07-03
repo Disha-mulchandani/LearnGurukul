@@ -3,7 +3,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-white px-6 py-20 max-w-4xl mx-auto">
 
       <h1 className="text-4xl font-extrabold text-blue-700">
-        Contact Bright Edu
+        Contact LearnGurukul
       </h1>
 
       <p className="mt-4 text-gray-600 text-lg">
